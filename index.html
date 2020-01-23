@@ -1,36 +1,139 @@
+<!DOCTYPE html>
 <html lang="en">
-    
+
 <head>
-    <meta charset="utf-8" />
-    <title>NMA Portfolio</title>
-    <meta name="description" content="NMA Portfolio" />
+  <meta charset="utf-8" />
+  <title>Christi Gonzales | Home</title>
 
-    <!-- VIEWPORT FOR MOBILE -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- VIEWPORT FOR MOBILE -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- ADOBE FONTS -->
+  <!-- MAIN CSS FILE -->
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
 
-    <!-- MAIN CSS FILE -->
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <!--GOOGLE FONT-->
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header class="site-header">
-        <div class="site-id">
-            <h1><a href="#"></a></h1>
-        </div>
 
-        <nav class="site-nav">
-            <ul>
-                <li><a href="work.html">WORK</a></li>
-                <li><a href="about.html">ABOUT</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <section class="home">
-        <h1><span class="firstname">Jade</span> <span class="lastname">Enomoto</span></h1>
+  <!-- <div class= "container"> -->
+
+
+  <header class="site-header toggle-nav sticky ">
+    <div class="container">
+      <div class="site-identity">
+        <h1><a href="index.html">Chris Gonzales</a></h1>
+      </div>
+
+      <nav class="site-navigation">
+        <div class="menu-button navicon">Menu</div>
+        <ul>
+          <li><a class="scroll" href="#work">Work</a></li>
+          <li><a class="scroll" href="#about">About</a></li>
+          <li><a class="scroll" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="site-main">
+    <section class="hero">
+      <div class="hero-image">
+        <h2> Design • Illustration • Web </h2>
+      </div>
     </section>
 
+    <div class="container container-body">
+      <section id="work">
+        <h2> My Work</h2>
+
+        <div class="row">
+          <div class="one-third column">
+            <a href="downtoearth.html"><img src="img/DTEbag.png" alt="Down to Earth tote" class="image" /></a>
+          </div>
+
+          <div class="one-third column">
+            <a href="styleframes.html">
+              <img src="img/CSF.png" alt="Country style frames" class="image" /></a>
+          </div>
+
+          <div class="one-third column">
+            <a href="pictograms.html">
+              <img src="img/Olympic.png" alt="Olympic pictograms" class="image" /></a>
+          </div>
+
+          <div class="one-whole column">
+            <a href="booktrilogy.html"><img src="img/books.png" alt="Book covers" class="image" /></a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="one-third column">
+            <a href="crystal.html"><img src="img/crystal.jpg" alt="Crystal paper cut" class="image" /></a>
+          </div>
+
+          <div class="one-third column">
+            <a href="havana.html"><img src="img/havana.png" alt="Havana city poster" class="image" /></a>
+          </div>
+
+          <div class="one-third column">
+            <a href="gala.html"><img src="img/gala.png" alt="Gala magazine" class="image" /> </a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+
+    <section class="about" id="about">
+      <div class="container">
+        <div class="one-third column">
+          <img class="imgdp" src="img/xti.PNG" alt="Profile picture" class="image" />
+        </div>
+
+        <div>
+          <h2> About Me</h2>
+          <p class="about-me"> Hi! I'm a KCC New Media Arts Interface Design student. I enjoy coding until 3am and
+            making taro illustrations. Someday, I would like to illustrate children's books.</p> <br />
+          <p class="about-me"> Like Olivia Pope, I don't want normal, and easy, and simple. If you want painful,
+            difficult, devastating, life-changing, extraordinary designs, then you've come to the right place.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-me">
+      <div class="container-contact">
+        <div class="row">
+          <div class="one-half column centered">
+            <h2> Contact Me</h2>
+            <p>You may reach me at cagg@hawaii.edu</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <nav class="site-navigation footer">
+        <ul>
+          <li><a class="scroll" href="#work">Work</a></li>
+          <li><a class="scroll" href="#about">About</a></li>
+          <li><a class="scroll" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+
+  <script src="js/scroll.js"></script>
+  <script src="js/stickynav.js"></script>
+
+  <!-- MAIN JS -->
+  <script src="js/script.js"></script>
+
 </body>
+
 </html>
